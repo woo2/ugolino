@@ -49,7 +49,11 @@ F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48p
 $ENDCMP
 #
 $CMP CONN_02X03
-D Connector 02x03
+D ICSP6
+$ENDCMP
+#
+$CMP RESONATOR
+D AWSCR-16.00CV-T
 $ENDCMP
 #
 #End Doc Library
