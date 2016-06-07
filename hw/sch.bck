@@ -52,6 +52,18 @@ $CMP CONN_02X03
 D ICSP6
 $ENDCMP
 #
+$CMP FDN340P
+D -100V Vds, -23A Id, HEXFET P-Channel MOSFET, TO-220
+K HEXFET P-Channel MOSFET
+F http://www.irf.com/product-info/datasheets/data/irf9540n.pdf
+$ENDCMP
+#
+$CMP MIC5205
+D MICROPOWER 150mA Regulator 
+K REGUL POWER  SOT-23-5
+F regulator/LP2985.pdf
+$ENDCMP
+#
 $CMP RESONATOR
 D AWSCR-16.00CV-T
 $ENDCMP
