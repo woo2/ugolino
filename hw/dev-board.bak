@@ -192,12 +192,12 @@ $EndComp
 $Comp
 L CONN_01X08 P?
 U 1 1 5756E5F0
-P 6250 1750
-F 0 "P?" H 6250 2200 50  0000 C CNN
-F 1 "CONN_01X08" V 6350 1750 50  0000 C CNN
-F 2 "" H 6250 1750 50  0000 C CNN
-F 3 "" H 6250 1750 50  0000 C CNN
-	1    6250 1750
+P 6150 1950
+F 0 "P?" H 6150 2400 50  0000 C CNN
+F 1 "CONN_01X08" V 6250 1950 50  0000 C CNN
+F 2 "" H 6150 1950 50  0000 C CNN
+F 3 "" H 6150 1950 50  0000 C CNN
+	1    6150 1950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -244,20 +244,16 @@ F 3 "" H 5400 1250 50  0000 C CNN
 	1    5400 1250
 	1    0    0    -1  
 $EndComp
-Text Label 4600 1250 2    60   ~ 0
+Wire Wire Line
+	4300 1800 4550 1800
+Text Label 4350 1250 2    60   ~ 0
 RST_U2
+Wire Wire Line
+	4350 1250 4600 1250
+Wire Wire Line
+	4600 1150 4550 1150
+Wire Wire Line
+	4550 1150 4550 1800
 Text Label 2100 2100 2    60   ~ 0
 RST_U2
-Text Label 4600 1150 2    60   ~ 0
-SCK_U2
-Text Label 4600 1050 2    60   ~ 0
-MISO_U2
-Text Label 5400 1150 0    60   ~ 0
-MOSI_U2
-Text Label 4300 1900 0    60   ~ 0
-MOSI_U2
-Text Label 4300 2000 0    60   ~ 0
-MISO_U2
-Text Label 4300 1800 0    60   ~ 0
-SCK_U2
 $EndSCHEMATC
