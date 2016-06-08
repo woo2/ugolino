@@ -1,23 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP ATMEGA168A-M
-D QFN/MLF32, 16k Flash, 1kB SRAM, 512B EEPROM
-K AVR 8bit Microcontroller MegaAVR
-F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
-$ENDCMP
-#
-$CMP ATMEGA168PA-M
-D QFN/MLF32, 16k Flash, 1kB SRAM, 512B EEPROM
-K AVR 8bit Microcontroller MegaAVR PicoPower
-F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
-$ENDCMP
-#
-$CMP ATMEGA328-M
-D QFN/MLF32, 32k Flash, 2kB SRAM, 1kB EEPROM
-K AVR 8bit Microcontroller MegaAVR
-F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
-$ENDCMP
-#
 $CMP ATMEGA328P-M
 D QFN/MLF32, 32k Flash, 2kB SRAM, 1kB EEPROM
 K AVR 8bit Microcontroller MegaAVR PicoPower
@@ -30,24 +12,6 @@ K AVR 8bit Microcontroller MegaAVR
 F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
 $ENDCMP
 #
-$CMP ATMEGA48PA-M
-D QFN/MLF32, 4k Flash, 512B SRAM, 256B EEPROM
-K AVR 8bit Microcontroller MegaAVR PicoPower
-F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
-$ENDCMP
-#
-$CMP ATMEGA88A-M
-D QFN/MLF32, 8k Flash, 1kB SRAM, 512B EEPROM
-K AVR 8bit Microcontroller MegaAVR
-F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
-$ENDCMP
-#
-$CMP ATMEGA88PA-M
-D QFN/MLF32, 8k Flash, 1kB SRAM, 512B EEPROM
-K AVR 8bit Microcontroller MegaAVR PicoPower
-F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
-$ENDCMP
-#
 $CMP CONN_02X03
 D ICSP6
 $ENDCMP
@@ -56,6 +20,12 @@ $CMP FDN340P
 D -100V Vds, -23A Id, HEXFET P-Channel MOSFET, TO-220
 K HEXFET P-Channel MOSFET
 F http://www.irf.com/product-info/datasheets/data/irf9540n.pdf
+$ENDCMP
+#
+$CMP LM2940LD-5.0
+D LM2940, 1A Low drop-out regulator, Fixed Output 5V
+K REGULATOR LDO 5V
+F http://www.ti.com/lit/ds/symlink/lm2931-n.pdf
 $ENDCMP
 #
 $CMP MIC5205
