@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name pcbfp_lib)(type KiCad)(uri "$(KIPRJMOD)/pcbfp_lib.pretty")(options "")(descr ""))
+  (lib (name Spenduino_CustomFootprints)(type KiCad)(uri /home/paul/thimble/spencerClone/Spenduino_CustomFootprints.pretty)(options "")(descr ""))
+  (lib (name GenericTransistorsFoots)(type KiCad)(uri /home/paul/thimble/dev-board/Hardware/GenericTransistorsFoots.pretty)(options "")(descr ""))
 )

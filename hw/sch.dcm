@@ -34,6 +34,10 @@ $CMP CONN_02X03_ICSP
 D ICSP6
 $ENDCMP
 #
+$CMP CRYSTAL
+D AWSCR-16.00CV-T
+$ENDCMP
+#
 $CMP FDN340P
 D 20V Vds, 2A Id, HEXFET P-Channel MOSFET, SOT-23
 K HEXFET P-Channel MOSFET
@@ -43,7 +47,7 @@ $ENDCMP
 $CMP LM2940LD-5.0
 D LM2940, 1A Low drop-out regulator, Fixed Output 5V
 K REGULATOR LDO 5V
-F http://www.ti.com/lit/ds/symlink/lm2931-n.pdf
+F http://www.ti.com/lit/ds/symlink/lm2940-n.pdf
 $ENDCMP
 #
 $CMP MIC5205
