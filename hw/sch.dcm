@@ -1,9 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP 23K256
-D SC70-6, 8V, .8A load switch
-K load switch 
-F https://www.fairchildsemi.com/datasheets/FD/FDG6331L.pdf
+D 256K SPI SRAM. SOIC8 wide
+K SPI SRAM
 $ENDCMP
 #
 $CMP 2N7002PW
