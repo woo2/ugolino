@@ -17,10 +17,22 @@ K Level Shifter
 F http://www.atmel.com/images/atmel-8127-avr-8-bit-microcontroller-attiny4-attiny5-attiny9-attiny10_datasheet-summary.pdf
 $ENDCMP
 #
+$CMP ATMEGA16U2
+D TQFP-32, 16k Flash, 512B SRAM, 512B EEPROM
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/Images/doc7799.pdf
+$ENDCMP
+#
 $CMP ATMEGA328PB-MU
 D QFN/MLF32, 4k Flash, 512B SRAM, 256B EEPROM
 K AVR 8bit Microcontroller MegaAVR
 F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA8U2
+D TQFP-32, 8k Flash, 512B SRAM, 512B EEPROM
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/Images/doc7799.pdf
 $ENDCMP
 #
 $CMP ATTINY85-SUR
