@@ -2019,7 +2019,7 @@ Wire Wire Line
 Wire Wire Line
 	14700 3600 13150 3600
 Text Notes 8900 6900 0    60   ~ 0
-Power switiching for 5V programmable ATTINY85s
+Load Switch for 5V programmable ATTINY85s
 Text Notes 6450 6900 0    60   ~ 0
 SRAM with multi-master connections
 Text Notes 11800 6900 0    60   ~ 0
