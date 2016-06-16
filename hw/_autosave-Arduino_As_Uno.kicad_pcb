@@ -1,12 +1,12 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.2-stable)
 
   (general
-    (links 337)
-    (no_connects 8)
+    (links 338)
+    (no_connects 6)
     (area 110.922999 72.949999 179.653001 126.440001)
     (thickness 1.6)
     (drawings 22)
-    (tracks 1532)
+    (tracks 1534)
     (zones 0)
     (modules 170)
     (nets 100)
@@ -41,7 +41,7 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 0.8)
     (user_trace_width 0.3)
     (user_trace_width 0.8)
     (trace_clearance 0.15)
@@ -4204,6 +4204,8 @@
   (segment (start 141.478 123.44454) (end 141.478 123.825) (width 0.8) (layer F.Cu) (net 1))
   (segment (start 114.99876 109.915) (end 117.298 109.915) (width 0.8) (layer F.Cu) (net 1))
   (segment (start 117.298 109.915) (end 118.998 111.615) (width 0.8) (layer F.Cu) (net 1))
+  (segment (start 146.05 88.265) (end 146.05 90.563) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 146.05 90.563) (end 145.998 90.615) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 151.998 97.115) (end 151.998 97.74) (width 0.25) (layer F.Cu) (net 2))
   (via (at 152.908 100.203) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 2))
   (segment (start 151.998 97.74) (end 152.908 98.65) (width 0.25) (layer F.Cu) (net 2))
