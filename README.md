@@ -1,6 +1,6 @@
 My arduino clone.
 
-##How to put code on the 328PB
+## How to put code on the 328PB
 
 1. Flash the U2:
   Running the first command was not enough for me. It may be that the fuses need to be set before flash can be written
