@@ -9,9 +9,7 @@ My arduino clone.
 2. As of right now, the 328pb is not supported by avrdude. To fix this, put [this](https://savannah.nongnu.org/bugs/?48237) snippet in your `/etc/avrdude.conf` file. there is a copy of the fixed file this repo. If you trust me, run `sudo cp avrdude.conf /etc/avrdude.conf` in the root of this repo.
 
 
-##TODO
 
-=======
 #### Schematic
 * ~~Make schematic symbol for ESD protection~~
 * ~~Place 5v regulator + caps~~
