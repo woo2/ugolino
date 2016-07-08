@@ -1,6 +1,7 @@
 My arduino clone.
 
 ##How to put code on the 328PB
+
 1. Flash the U2:
   Running the first command was not enough for me. It may be that the fuses need to be set before flash can be written
   1. ```sudo avrdude -p m16u2 -c usbtiny -U flash:w:~/.arduino15/packages/arduino/hardware/avr/1.6.11/firmwares/atmegaxxu2/arduino-usbserial/Arduino-usbserial-atmega16u2-Uno-Rev3.hex -U lfuse:w:0xFF:m -U hfuse:w:0xD9:m -U efuse:w:0xF4:m -U lock:w:0x0F:m -v```
