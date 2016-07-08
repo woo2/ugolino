@@ -11,6 +11,7 @@ My arduino clone.
 
 ##TODO
 
+=======
 #### Schematic
 * ~~Make schematic symbol for ESD protection~~
 * ~~Place 5v regulator + caps~~
