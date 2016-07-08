@@ -88,4 +88,8 @@ K Bus Switch, SPDT
 F http://www.ti.com/lit/ds/symlink/ts3a44159.pdf
 $ENDCMP
 #
+$CMP arduino_pinout
+D Connector 01x08
+$ENDCMP
+#
 #End Doc Library
