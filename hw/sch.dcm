@@ -92,4 +92,8 @@ $CMP arduino_pinout
 D Connector 01x08
 $ENDCMP
 #
+$CMP arduino_pinout_Fixed
+D Arduino
+$ENDCMP
+#
 #End Doc Library
