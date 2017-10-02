@@ -15,13 +15,13 @@ requires an extra board to be installed.
 tiny is a slave.~(fixed)
 * ~SS_328 is not connected to the SS line of the RAM.~ (fixed)
 * The PCB does not yet reflect the changes marked fixed.
-* Some footprint library dependencies are currently unavaliable but will be
 corrected.
 
 ## How to put code on the 328PB
 
 1. Flash the U2:
-  Running the first command was not enough for me. It may be that the fuses need to be set before flash can be written
+
+  Running parts 1 and 2 together did not work for me. It could be that the fuses need to be written before the flash can be programmed properly. Use the same command up to the ```-U``` in part 1 for part 2.
   1. ```sudo avrdude -p m16u2 -c usbtiny -U lfuse:w:0xFF:m -U hfuse:w:0xD9:m -U efuse:w:0xF4:m -U lock:w:0x0F:m -v```
   2. ```flash:w:/home/paul/.arduino15/packages/arduino/hardware/avr/1.6.11/firmwares/atmegaxxu2/arduino-usbserial/Arduino-usbserial-atmega16u2-Uno-Rev3.hex```
 
@@ -31,7 +31,6 @@ corrected.
 me, run `sudo cp avrdude.conf /etc/avrdude.conf` in the root of this repo.
 
 
-
 The Ugolino was first created as an intern project while I was working at
 [Thimble.io](http://thimble.io), and I have recieved permission to publish this
-work publically.
+work publicly.
