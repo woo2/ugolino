@@ -10,7 +10,7 @@ An ATMEGA16u2 was used as a USB to serial tranceiver. Right now, support for the
 328pb is limited, a patch for the pb is needed for avrdude, and the Arduino IDE
 requires an extra board to be installed.
 
-##Known Issues
+## Known Issues
 * ~MISO and MOSI on the Tinys are labeled with respect to the host, where the
 tiny is a slave.~(fixed)
 * ~SS_328 is not connected to the SS line of the RAM.~ (fixed)
